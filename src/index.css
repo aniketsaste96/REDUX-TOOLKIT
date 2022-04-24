@@ -1,0 +1,13 @@
+.conatiner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  margin: 5px;
+}
+
+h1 {
+  text-align: center;
+}

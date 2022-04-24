@@ -23,11 +23,11 @@ const Home = () => {
   };
   console.log(typeof change);
   return (
-    <div>
+    <div className="conatiner">
       <button onClick={addBtn}>Incremenet</button>
       <button onClick={subBtn}>Decremenet</button>
       <input onChange={(e) => setChange(e.target.value)} />
-      <button onClick={addBtn25}>+25</button>
+      <button onClick={addBtn25}>Add</button>
     </div>
   );
 };
