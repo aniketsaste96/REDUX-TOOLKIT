@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch } from "react-redux";
-
+//using useState
 const Home = () => {
   const [change, setChange] = useState(0);
   const dispatch = useDispatch();
